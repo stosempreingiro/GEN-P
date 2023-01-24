@@ -14,12 +14,13 @@ GEN-P requiers metasploit-framework and python3 to works.
 
 ## Installation
 Prerequisites installation:
-metasploit-framework and python3 (ignore if you are using Kali or Parrot Security OS)
+metasploit-framework, python3 and git
+(ignore if you are using Kali or Parrot Security OS)
 ```
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod +x msfinstall && ./msfinstall && msfdb init
 ```
 ```
-sudo apt install python3 -y
+sudo apt install git python3 -y
 ```
 Now download the repo and run the script!
 ```
