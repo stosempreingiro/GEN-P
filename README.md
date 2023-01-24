@@ -35,7 +35,9 @@ Updates will coming soon. I hope I'm gonna extend this tool adding obfuscations,
 <p align="center">
   <img src="Screenshots/windows.png" width="800"/>
 </p>
+
 -------------------------------------------------------------------------
+
 * Example list of python3 revshells.com scripts for MacOS
 <p align="center">
   <img src="Screenshots/mac.png" width="800"/>
