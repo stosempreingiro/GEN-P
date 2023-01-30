@@ -195,7 +195,7 @@ if os =='2':
     lport=input((Fore.YELLOW+Style.BRIGHT+"Set your PORT: "+Style.RESET_ALL))
     if lport and lhost:
         o=input((Fore.YELLOW+Style.BRIGHT+"\nFile name without extension"+Style.RESET_ALL+Fore.RED+Style.BRIGHT+" [ex: android_backdoor]: "+Style.RESET_ALL))
-        print(Fore.BLUEStyle.BRIGHT+banner+Style.RESET_ALL)
+        print(Fore.BLUE+Style.BRIGHT+banner+Style.RESET_ALL)
         if o:
             srecap(".apk", pa,n)
             tcpapk()
