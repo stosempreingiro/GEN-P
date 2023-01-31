@@ -103,7 +103,7 @@ if os == '1':
     """)
 
     print(Fore.CYAN+"\nConfigure your IP and PORT\n"+Style.RESET_ALL)
-    lhost=input((Fore.YELLOW+Style.BRIGHT+"\nSet your IP: "+Style.RESET_ALL))
+    lhost=str(input((Fore.YELLOW+Style.BRIGHT+"\nSet your IP: "+Style.RESET_ALL)))
     lport=input((Fore.YELLOW+Style.BRIGHT+"Set your PORT: "+Style.RESET_ALL))
 
     if lport and lhost:
@@ -191,7 +191,7 @@ if os =='2':
     pa="android/meterpreter/reverse_tcp" #payload type
 
     print(Fore.CYAN+"\nConfigure your IP and PORT\n"+Style.RESET_ALL)
-    lhost=input((Fore.YELLOW+Style.BRIGHT+"\nSet your IP: "+Style.RESET_ALL))
+    lhost=str(input((Fore.YELLOW+Style.BRIGHT+"\nSet your IP: "+Style.RESET_ALL)))
     lport=input((Fore.YELLOW+Style.BRIGHT+"Set your PORT: "+Style.RESET_ALL))
     if lport and lhost:
         o=input((Fore.YELLOW+Style.BRIGHT+"\nFile name without extension"+Style.RESET_ALL+Fore.RED+Style.BRIGHT+" [ex: android_backdoor]: "+Style.RESET_ALL))
@@ -213,7 +213,7 @@ if os == '3':
     'Visit revshells.com for more info and scripts.'
     """
     print(Fore.CYAN+"\nConfigure your IP and PORT\n"+Style.RESET_ALL)
-    lhost=input((Fore.YELLOW+Style.BRIGHT+"Set your IP: "+Style.RESET_ALL))
+    lhost=str(input((Fore.YELLOW+Style.BRIGHT+"Set your IP: "+Style.RESET_ALL)))
     lport=input((Fore.YELLOW+Style.BRIGHT+"Set your PORT: "+Style.RESET_ALL))
     print(Fore.CYAN+Style.BRIGHT+banner+Style.RESET_ALL)
     i=input((Fore.YELLOW+Style.BRIGHT+"Choose one of the options: "+Style.RESET_ALL))
